@@ -25,7 +25,11 @@
     "selenium": "selenium-server -port 4444",
     "wait-ports": "yarn wait-port 4000 && yarn wait-port 5000"
   },
-  "workspaces": ["api", "e2e", "web"],
+  "workspaces": [
+    "api",
+    "e2e",
+    "web"
+  ],
   "private": true,
   "lint-staged": {
     "*.{ts,tsx}!api/src/generated/*.ts": [

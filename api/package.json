@@ -15,7 +15,7 @@
     "test": "NODE_ENV=test PORT=4010 dotenv -- jest"
   },
   "engines": {
-    "node": "9.x.x"
+    "node": "10.15.1"
   },
   "jest": {
     "moduleFileExtensions": [
@@ -49,11 +49,11 @@
     "@types/supertest": "2.0.7",
     "dotenv-cli": "1.4.0",
     "graphql-cli": "3.0.11",
-    "jest": "23.6.0",
+    "jest": "^24.1.0",
     "lodash": "4.17.11",
     "nodemon": "1.18.10",
     "npm-run-all": "4.1.5",
-    "prisma": "1.11.1",
+    "prisma": "^1.27.3",
     "progress": "2.0.3",
     "rimraf": "2.6.3",
     "supertest": "3.4.2",
